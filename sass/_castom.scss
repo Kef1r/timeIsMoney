@@ -1,0 +1,31 @@
+@import "fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html {
+  font-size: 14px;
+  font-family: $openSans;
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 95%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
